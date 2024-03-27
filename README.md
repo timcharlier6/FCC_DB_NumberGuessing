@@ -21,4 +21,6 @@ chmod +x ./number_guess.sh
 git add .
 git commit -m 'Initial commit'
 echo '#!/bin/bash' > ./number_guess.sh
+echo 'PSQL="psql --username=freecodecamp --dbname=<database_name> -t --no-align -c"' >> ./number_guess.sh
+
 ```
