@@ -13,3 +13,20 @@ https://www.freecodecamp.org/learn/relational-database/build-a-number-guessing-g
    `psql -U postgres < number_guess.sql`
 10. Connect psql --username=freecodecamp --dbname=number_guess
 11. Dump `pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql`
+
+### Set up sh
+
+```
+#!/bin/bash
+# set up dir
+mkdir number_guessing_game
+cd number_gessing_game
+git init
+touch number_guess.sh
+chmod +x ./number_guess.sh
+git add .
+git commit -m 'Initial commit'
+echo '#!/bin/bash' > ./number_guess.sh
+```
+
+```
