@@ -16,11 +16,13 @@ https://www.freecodecamp.org/learn/relational-database/build-a-number-guessing-g
 
 ### Set up sh
 
+`touch setup.sh && chmod +x setup.sh`
+
 ```
 #!/bin/bash
 # set up dir
 mkdir number_guessing_game
-cd number_gessing_game
+cd number_guessing_game
 git init
 touch number_guess.sh
 chmod +x ./number_guess.sh
